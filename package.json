@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=6600 -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -19,11 +19,8 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-<<<<<<< HEAD
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-=======
->>>>>>> c9b49b5baf930e7dc96bc21d4f6069fac79690e7
     "ngx-bootstrap": "^5.2.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
